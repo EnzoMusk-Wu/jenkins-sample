@@ -1,4 +1,4 @@
-FROM golang:1.10.4-alpine
+FROM  anolis-registry.cn-zhangjiakou.cr.aliyuncs.com/openanolis/golang:1.20.12-23
 
 ADD . /go/src/app
 
