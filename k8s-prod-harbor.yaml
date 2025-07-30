@@ -20,6 +20,8 @@ spec:
         env:
         - name: branch
           value: <BRANCH_NAME>
+      imagePullSecrets:
+      - name: horbor-secret
 ---
 apiVersion: v1
 kind: Service
